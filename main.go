@@ -47,7 +47,7 @@ func inc(ip net.IP) {
 
 func main() {
 	var port int
-	flag.IntVar(&port, "p", 25565, "number of lines to read from the file")
+	flag.IntVar(&port, "p", 25565, "number of the port")
 	flag.Parse()
 
 	ip, ipnet, err := net.ParseCIDR(GetLocalIP() + "/24")
