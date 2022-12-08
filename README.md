@@ -1,2 +1,2 @@
 # port-scan
-Scan For A Port on Local Network
+Scan for a port on local Network with golang
